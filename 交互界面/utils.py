@@ -1,0 +1,1 @@
+#coding=utf-8import os.pathmain_dir = os.path.split(os.path.abspath(__file__))[0] #获得当前路径# 返回icon中文件的系统文件路径def load_image(file):                                 #输入文件名，得到文件路径    filePath = os.path.join(main_dir, 'icon', file)    return filePath
